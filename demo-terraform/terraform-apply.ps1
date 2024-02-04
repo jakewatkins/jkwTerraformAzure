@@ -2,7 +2,7 @@
 #
 #
 
-$keyVaultName="kvGPSecrets"
+$keyVaultName="--keyvault-name--"
 
 # get values from the KV
 $subscriptionId= az keyvault secret show --vault-name $keyVaultName --name "SubscriptionId"  --query "value"
